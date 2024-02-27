@@ -18,7 +18,7 @@ for (int i = 1; i < 200; i++) {
 }
 
 for (int i = 199; i >= 0; i--) {
-    if ((arr1[i] == arr2[i])&&(arr1[i]!=0 || arr2[i] != 0)) {
+    if ((arr1[i] == arr2[i]) && (arr1[i] !=0 || arr2[i] != 0)) {
         return arr1[i];
     }
 }
